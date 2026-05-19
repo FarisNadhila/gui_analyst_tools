@@ -11,3 +11,4 @@ build/
 *.xls
 *.csv
 
+*.env
