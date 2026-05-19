@@ -1,0 +1,20 @@
+Linux:
+
+pyinstaller --noconfirm --onefile --windowed \
+--name "Digivla_Analyst_Tools" \
+--icon "assets/icon.png" \
+--add-data "db:db" \
+--add-data "assets:assets" \
+--collect-all PyQt6 \
+main.py
+
+Windows:
+
+pyinstaller --noconfirm --onefile --windowed ^
+--name "Digivla_Analyst_Tools" ^
+--icon "assets/icon.ico" ^
+--add-data "db;db" ^
+--add-data "assets;assets" ^
+--collect-all PyQt6 ^
+main.py
+

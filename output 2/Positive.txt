@@ -1,0 +1,935 @@
+Laporan Media Monitoring
+Bulog
+13 May 2026
+Cut off XX.00 WIB 
+
+Positive: 224 berita
+Neutral: 1624 berita
+Negative: 472 berita
+
+
+*Positive*
+
+*Media Tv*
+
+*Tier 1*
+
+1. TVRI - Klik Indonesia Malam
+PERTEMUAN TOKOH NASIONAL DI KARTANEGARA:
+https://api.digivla.id/media/media_tv/2025/10/05/2025-10-05-012-4478-1759627035.mp4
+
+2. TVRI - Klik Indonesia Pagi
+PERTEMUAN TOKOH NASIONAL DI KARTANEGARA:
+https://api.digivla.id/media/media_tv/2025/10/05/2025-10-05-012-10793-1759636317.mp4
+
+3. SCTV - Liputan 6 Pagi
+PRABOWO BERTEMU JOKOWI, BAHAS APA:
+https://api.digivla.id/media/media_tv/2025/10/06/2025-10-06-012-1230-1759710409.mp4
+
+
+*Media Cetak*
+
+*Tier 1*
+
+1. Kompas
+Pertumbuhan dan Pemerataan:
+https://api.digivla.id/media/pdf_images/2025/10/03/2025-10-03-001-0007-001-04-0925-00.pdf
+
+2. Investor Daily Indonesia
+Proyek PLTS Terapung Saguling Dimulai:
+https://api.digivla.id/media/pdf_images/2025/10/04/2025-10-04-114-0012-001-04-9070-01.pdf
+
+3. Kompas
+Delapan Dekade Perayaan Tentara Kita:
+https://api.digivla.id/media/pdf_images/2025/10/05/2025-10-05-001-0001-002-02-0901-01.pdf
+
+4. Kompas
+Modernasasi Data Ketahanan Pangan Berbasis Citra Satelit Tengah Dikembangkan:
+https://api.digivla.id/media/pdf_images/2025/10/08/2025-10-08-001-0010-002-07-9070-00.pdf
+
+
+*Tier 2*
+
+5. Ambon Ekspres
+Wattimena Target Penyelesaian Pembangunan 470 Unit Rumah Untuk MBR:
+https://api.digivla.id/media/pdf_images/2025/10/03/2025-10-03-370-0005-002-05-9070-00.pdf
+
+6. Nusa Bali
+Jokowi Bersama Keluarga Santap Malam di Banjar Teges Kanginan:
+https://api.digivla.id/media/pdf_images/2025/10/03/2025-10-03-049-0006-003-04-9070-01.pdf
+
+7. Jateng Pos
+Komisi B Ingin Semarang Jadi Pertemuan Peradaban Dunia:
+https://api.digivla.id/media/pdf_images/2025/10/06/2025-10-06-036-0003-004-03-9070-00.pdf
+
+8. Jateng Pos
+IKM Semarang Didorong Naik Kelas:
+https://api.digivla.id/media/pdf_images/2025/10/09/2025-10-09-036-0004-002-04-9070-00.pdf
+
+9. Suara Merdeka
+IKM Semarang Didorong Naik Kelas:
+https://api.digivla.id/media/pdf_images/2025/10/09/2025-10-09-105-0003-001-02-9070-01.pdf
+
+
+*Tier 3*
+
+10. Warta Bali
+Jokowi Titip Salam Hangat:
+https://api.digivla.id/media/pdf_images/2025/10/03/2025-10-03-410-0001-003-02-0901-01.pdf
+
+
+*Media Online*
+
+*Tier 1*
+
+1. Bisnis.com
+Jejak Panjang Hacker Bjorka: Dari Bocoran Data Nasabah hingga Ditangkap Polisi:
+https://kabar24.bisnis.com/read/20251003/15/1917078/jejak-panjang-hacker-bjorka-dari-bocoran-data-nasabah-hingga-ditangkap-polisi
+
+2. sumsel.tribunnews.com
+Rekam Jejak Hacker Bjorka yang Ditangkap, Retas Dokumen Jokowi Hingga Bocorkan Jutaan Data NPWP:
+https://sumsel.tribunnews.com/news/990483/rekam-jejak-hacker-bjorka-yang-ditangkap-retas-dokumen-jokowi-hingga-bocorkan-jutaan-data-npwp
+
+3. sumsel.tribunnews.com
+Rangkaian Kegiatan &amp; Panduan Penyelenggaraan Peringatan Hari Santri Nasional 2025 Resmi dari Kemenag:
+https://sumsel.tribunnews.com/lifestyle/990554/rangkaian-kegiatan-panduan-penyelenggaraan-peringatan-hari-santri-nasional-2025-resmi-dari-kemenag
+
+4. Kompas.id
+The Backflow of TNI Reform:
+https://www.kompas.id/artikel/en-arus-balik-reformasi-tni
+
+5. Detik.com
+6 Fakta Penangkapan Hacker 'Bjorka': Jual Data Ilegal-Transaksi Lewat Kripto:
+https://www.detik.com/sulsel/hukum-dan-kriminal/d-8143801/6-fakta-penangkapan-hacker-bjorka-jual-data-ilegal-transaksi-lewat-kripto
+
+6. manadopost.jawapos.com
+Usai Diringkus, Polda Usut Hacker Bjorka asal Sulut terkait Kebocoran Data Presiden ke-7 Jokowi dan 6 Juta Data NPWP Warga Indonesia:
+https://manadopost.jawapos.com/berita-utama/286654640/usai-diringkus-polda-usut-hacker-bjorka-asal-sulut-terkait-kebocoran-data-presiden-ke-7-jokowi-dan-6-juta-data-npwp-warga-indonesia
+
+7. dailymail.co.uk
+The Bali 9's saddest story: Scott Rush threw it all away at 19 then was a hopeless addict behind bars... now, CANDACE SUTTON reveals his life today with the parents who never gave up hope:
+https://www.dailymail.co.uk/news/article-15143427/Bali-Nine-Scott-Rush-life-today-parents-Brisbane-suburbs.html
+
+8. antaranews.com
+Titi Kamal bangga pakai batik sebagai identitas bangsa:
+https://www.antaranews.com/berita/5151281/titi-kamal-bangga-pakai-batik-sebagai-identitas-bangsa
+
+9. republika.co.id
+Aktris Titi Kamal Bangga Pakai Batik Perlihatkan Ciri Khas Bangsa:
+https://ameera.republika.co.id/berita/t3juy3425/aktris-titi-kamal-bangga-pakai-batik-perlihatkan-ciri-khas-bangsa
+
+10. belitung.tribunnews.com
+Biodata Singkat WFT, Sosok Hacker Bjorka Pernah Bobol Situs BIN, Pengangguran Tak Lulus SMK:
+https://belitung.tribunnews.com/news/208017/biodata-singkat-wft-sosok-hacker-bjorka-pernah-bobol-situs-bin-pengangguran-tak-lulus-smk
+
+11. radarsolo.jawapos.com
+Jejak Hacker Bjorka yang Pernah Bikin Kalang Kabut Pemerintah Disebut Tidak Tamat SMK, Pakar Hukum Siber Unair Buka Suara:
+https://radarsolo.jawapos.com/nasional/846654469/jejak-hacker-bjorka-yang-pernah-bikin-kalang-kabut-pemerintah-disebut-tidak-tamat-smk-pakar-hukum-siber-unair-buka-suara
+
+12. manadopost.jawapos.com
+Usai Sembunyi di Sulut, Polisi Usut Hacker Bjorka asal Manado terkait Kebocoran Data Presiden ke-7 Jokowi dan 6 Juta NPWP Warga Indonesia:
+https://manadopost.jawapos.com/berita-utama/286654640/usai-sembunyi-di-sulut-polisi-usut-hacker-bjorka-asal-manado-terkait-kebocoran-data-presiden-ke-7-jokowi-dan-6-juta-npwp-warga-indonesia
+
+13. republika.co.id
+Aktris Titi Kamal Bangga Pakai Batik di Setiap Event untuk Perlihatkan Ciri Khas Bangsa:
+https://ameera.republika.co.id/berita/t3juy3425/aktris-titi-kamal-bangga-pakai-batik-di-setiap-event-untuk-perlihatkan-ciri-khas-bangsa
+
+14. gorontalo.antaranews.com
+Titi Kamal bangga pakai batik sebagai identitas bangsa:
+https://gorontalo.antaranews.com/berita/356261/titi-kamal-bangga-pakai-batik-sebagai-identitas-bangsa
+
+15. tribunnews.com
+Riwayat dan Jejak Hacker Bjorka: Bocorkan Jutaan Data NPWP hingga Retas Dokumen Jokowi:
+https://www.tribunnews.com/nasional/7736963/riwayat-dan-jejak-hacker-bjorka-bocorkan-jutaan-data-npwp-hingga-retas-dokumen-jokowi
+
+16. suara.com
+Bikin Bangga! Begini Cara Titi Kamal Pakai Batik Depan Publik:
+https://jakarta.suara.com/read/2025/10/03/165141/bikin-bangga-begini-cara-titi-kamal-pakai-batik-depan-publik
+
+17. Kaltim.tribunnews.com
+Rekam Jejak Hacker Bjorka Sebelum Akhirnya Ditangkap, Meretas Jutaan Data hingga Dokumen Jokowi:
+https://kaltim.tribunnews.com/news/1120928/rekam-jejak-hacker-bjorka-sebelum-akhirnya-ditangkap-meretas-jutaan-data-hingga-dokumen-jokowi
+
+18. news.detik.com
+5 Fakta Hacker Ngaku 'Bjorka' Klaim Retas 4,9 Juta Dana Nasabah:
+https://news.detik.com/berita/d-8144296/5-fakta-hacker-ngaku-bjorka-klaim-retas-4-9-juta-dana-nasabah
+
+19. antaranews.com
+National Journalist Association vital for RI, minister says:
+https://en.antaranews.com/news/384177/national-journalist-association-vital-for-ri-minister-says
+
+20. Kompas.id
+After Meeting Prabowo for Two Hours in Kertanegara, Jokowi's Aide Says He's Ready to Attend the Indonesian National Armed Forces Anniversary Celebration:
+https://www.kompas.id/artikel/en-temui-prabowo-dua-jam-di-kertanegara-ajudan-sebut-jokowi-bersiap-hadiri-hut-tni
+
+21. kontan.co.id
+Bjorka Tumbang: Hacker Fenomenal yang Gegerkan Indonesia Akhirnya Ditangkap:
+https://regional.kontan.co.id/news/bjorka-tumbang-hacker-fenomenal-yang-gegerkan-indonesia-akhirnya-ditangkap
+
+22. merdeka.com
+Bukan Rahasia Lagi: Jokowi Hadir! Menhan Ungkap Arahan Persatuan Tokoh di Rumah Prabowo:
+https://www.merdeka.com/politik/bukan-rahasia-lagi-jokowi-hadir-menhan-ungkap-arahan-persatuan-tokoh-di-rumah-prabowo-434461-mvk.html
+
+23. sindonews.com
+Apa Tema HUT ke-80 TNI? Simak Ulasan dan Maknanya di Sini:
+https://nasional.sindonews.com/read/1628371/14/apa-tema-hut-ke-80-tni-simak-ulasan-dan-maknanya-di-sini-1759533008
+
+24. Kompas.id
+Papua, Femicide, and Militarism: Kontras' Critical Notes on the TNI in its 80th Anniversary:
+https://www.kompas.id/artikel/en-papua-femisida-dan-militerisme-catatan-kritis-kontras-untuk-tni-di-usia-ke-80
+
+25. mataram.antaranews.com
+National Journalist Association vital for RI, minister says:
+https://mataram.antaranews.com/berita/493637/national-journalist-association-vital-for-ri-minister-says
+
+26. voi.id
+Polemik Peretasan Bjorka: Omong Kosong Klaim Peretas Sudah Diketahui BIN dan Polri:
+https://voi.id/memori/520668/polemik-peretasan-bjorka-omong-kosong-klaim-peretas-sudah-diketahui-bin-dan-polri
+
+27. Kompas.id
+Eight Decades of the Indonesian National Armed Forces: From Bung Karno's Horse Parade to Prabowo's Defense Equipment Showcase:
+https://www.kompas.id/artikel/en-delapan-dekade-tni-dari-parade-berkuda-bung-karno-hingga-langit-monas-prabowo
+
+28. suara.com
+Harta Kekayaan Putri Tanjung Pernah Terungkap di LHKPN, Capai Rp 5 M Tanpa Utang:
+https://www.suara.com/lifestyle/2025/10/05/111155/harta-kekayaan-putri-tanjung-pernah-terungkap-di-lhkpn-capai-rp-5-m-tanpa-utang
+
+29. kontan.co.id
+Prabowo Kumpulkan Menteri di Kediamannya Malam Ini, Ada Apa?:
+https://nasional.kontan.co.id/news/prabowo-kumpulkan-menteri-di-kediamannya-malam-ini-ada-apa
+
+30. okezone.com
+Bukan Bahas Jokowi, Ini yang Dibicarakan Prabowo saat Kumpulkan Menteri di Kertanegara:
+https://news.okezone.com/read/2025/10/05/337/3174682/bukan-bahas-jokowi-ini-yang-dibicarakan-prabowo-saat-kumpulkan-menteri-di-kertanegara
+
+31. tribunnews.com
+5 Aksi Peretasan Bjorka, Hacker Misterius Guncang Keamanan Siber Indonesia:
+https://www.tribunnews.com/nasional/7737786/5-aksi-peretasan-bjorka-hacker-misterius-guncang-keamanan-siber-indonesia
+
+32. Kompas.id
+Meeting Prabowo in Kertanegara, Jokowi Reportedly Provided Input to the Government:
+https://www.kompas.id/artikel/en-temui-prabowo-di-kertanegara-jokowi-disebut-beri-saran-untuk-pemerintah
+
+33. Kompas.id
+Kenapa Kota Bandung Ingin Bandara Husein Sastranegara “Hidup” Kembali?:
+https://www.kompas.id/artikel/kenapa-kota-bandung-ingin-bandara-husein-sastranegara-hidup-kembali
+
+34. Kompas.com
+Istana Ungkap Isi Pertemuan "Empat Mata" Prabowo dan Jokowi:
+https://video.kompas.com/watch/1880725/istana-ungkap-isi-pertemuan-empat-mata-prabowo-dan-jokowi
+
+35. Kompas.id
+How Does the Freeport Mine Landslide Impact the Economy?:
+https://www.kompas.id/artikel/en-sejauh-mana-dampak-longsornya-tambang-freeport-pada-perekonomian
+
+36. Liputan6.com
+VIDEO: Presiden Prabowo Tinjau Kawasan Monas, Panglima TNI Gelar Doa Bersama:
+https://enamplus.liputan6.com/tv/read/6176765/video-presiden-prabowo-tinjau-kawasan-monas-panglima-tni-gelar-doa-bersama
+
+37. suaramerdeka.com
+Joko Widodo Jadi Dewan Penasihat Bloomberg, Pakar Sebut Bentuk Apresiasi Internasional, Beri Keuntungan Indonesia:
+https://www.suaramerdeka.com/ekonomi/0416031091/joko-widodo-jadi-dewan-penasihat-bloomberg-pakar-sebut-bentuk-apresiasi-internasional-beri-keuntungan-indonesia
+
+38. Kompas.id
+Why Does Bandung City Want Husein Sastranegara Airport "Revived"?:
+https://www.kompas.id/artikel/en-kenapa-kota-bandung-ingin-bandara-husein-sastranegara-hidup-kembali
+
+39. Kompas.id
+Repatriation of 30,000 Artifacts: Cultural Diplomacy and Sovereignty:
+https://www.kompas.id/artikel/en-repatriasi-30000-artefak-diplomasi-budaya-dan-kedaulatan
+
+40. Kompas.com
+Prabowo Kumpulkan Menteri di Kertanegara Malam-malam:
+https://nasional.kompas.com/read/2025/10/05/22294321/prabowo-kumpulkan-menteri-di-kertanegara-malam-malam
+
+41. sindonews.com
+Malam Ini Prabowo Panggil Menteri Bahas Swasembada Pangan dan Pemberdayaan Masyarakat:
+https://nasional.sindonews.com/read/1628967/12/malam-ini-prabowo-panggil-menteri-bahas-swasembada-pangan-dan-pemberdayaan-masyarakat-1759680614
+
+42. metrodaily.jawapos.com
+UKT ITF Sumut di Karo Kampung Jokowi Sukses, Cetak Bibit Atlet Taekwondo Tangguh:
+https://metrodaily.jawapos.com/olahraga/2356662339/ukt-itf-sumut-di-karo-kampung-jokowi-sukses-cetak-bibit-atlet-taekwondo-tangguh
+
+43. radarsemarang.jawapos.com
+Akselerasi Kualitas Pendidikan, Yayasan Wakaf Bina Amal Wajibkan Penguatan Karakter Bagi Seluruh Tenaga Pendidik:
+https://radarsemarang.jawapos.com/semarang/726665704/akselerasi-kualitas-pendidikan-yayasan-wakaf-bina-amal-wajibkan-penguatan-karakter-bagi-seluruh-tenaga-pendidik
+
+44. wow.tribunnews.com
+Mensesneg Beberkan Isi Pertemuan 4 Mata antara Prabowo dengan Jokow, Lanjut Kumpulkan Para Menteri:
+https://wow.tribunnews.com/news/371357/mensesneg-beberkan-isi-pertemuan-4-mata-antara-prabowo-dengan-jokow-lanjut-kumpulkan-para-menteri
+
+45. Bisnis.com
+Fakta-Fakta Penangkapan Hacker Bjorka:
+https://kabar24.bisnis.com/read/20251006/15/1917660/fakta-fakta-penangkapan-hacker-bjorka
+
+46. tribunnews.com
+Apakah WFT Benar Hacker Bjorka yang Hebohkan Era Jokowi? Polisi: Mungkin, tapi Masih Satu Bukti:
+https://www.tribunnews.com/nasional/7737970/apakah-wft-benar-hacker-bjorka-yang-hebohkan-era-jokowi-polisi-mungkin-tapi-masih-satu-bukti
+
+47. sindonews.com
+Polda Metro Dalami Apakah WFT Identik dengan Bjorka yang Heboh Era Jokowi:
+https://daerah.sindonews.com/read/1629155/6/polda-metro-dalami-apakah-wft-identik-dengan-bjorka-yang-heboh-era-jokowi-1759734636
+
+48. Kompas.com
+Ini Alasan Jokowi Tak Hadiri Upacara HUT ke-80 TNI di Monas:
+https://nasional.kompas.com/read/2025/10/06/13215441/ini-alasan-jokowi-tak-hadiri-upacara-hut-ke-80-tni-di-monas
+
+49. Liputan6.com
+VIDEO: Istana Buka Suara Terkait Pertemuan Prabowo-Jokowi:
+https://enamplus.liputan6.com/tv/read/6177229/video-istana-buka-suara-terkait-pertemuan-prabowo-jokowi
+
+50. antaranews.com
+Populer, dugaan meteor di Cirebon dan hasil pertemuan Prabowo-Jokowi:
+https://www.antaranews.com/berita/5155325/populer-dugaan-meteor-di-cirebon-dan-hasil-pertemuan-prabowo-jokowi
+
+51. Kompas.id
+The Corruption Eradication Commission (KPK) Reveals the Refund of Nearly Rp 100 Billion in Hajj Quota Corruption Funds.:
+https://www.kompas.id/artikel/en-kpk-ungkap-pengembalian-uang-korupsi-kuota-haji-hampir-rp-100-miliar
+
+52. antaranews.com
+Pimpinan MPR: Pertemuan Prabowo--Jokowi untuk kemaslahatan masyarakat:
+https://www.antaranews.com/berita/5158945/pimpinan-mpr-pertemuan-prabowo-jokowi-untuk-kemaslahatan-masyarakat
+
+53. Palembang.tribunnews.com
+Putri Tanjung Hapus Momen Bareng Suami di Instagram, Buktu Nyata Curhatan Lama Stafsus Era Jokowi?:
+https://palembang.tribunnews.com/seleb/1297244/putri-tanjung-hapus-momen-bareng-suami-di-instagram-buktu-nyata-curhatan-lama-stafsus-era-jokowi
+
+54. Kompas.id
+Why Does Prabowo Still Regularly Meet Jokowi?:
+https://www.kompas.id/artikel/en-mengapa-prabowo-masih-rutin-bertemu-jokowi
+
+55. Kompas.id
+The Corruption Case That Implicated Halim Kalla and Jokowi's Traces at the West Kalimantan PLTU 1:
+https://www.kompas.id/artikel/en-duduk-perkara-korupsi-yang-menyeret-halim-kalla-dan-jejak-jokowi-di-pltu-1-kalbar
+
+56. tribunnews.com
+Eddy Soeparno: Pertemuan Prabowo–Jokowi Bahas Maslahat untuk Masyarakat:
+https://www.tribunnews.com/mpr-ri/7738797/eddy-soeparno-pertemuan-prabowojokowi-bahas-maslahat-untuk-masyarakat
+
+57. Kompas.com
+Putri Tanjung Hapus Foto Pernikahan dengan Guinandra Jatikusumo:
+https://www.kompas.com/hype/read/2025/10/07/181806566/putri-tanjung-hapus-foto-pernikahan-dengan-guinandra-jatikusumo
+
+58. Kompas.id
+Satellite Imagery-Based Food Security Data Modernization Under Development:
+https://www.kompas.id/artikel/en-modernisasi-data-ketahanan-pangan-berbasis-citra-satelit-tengah-dikembangkan
+
+59. Bisnis.com
+Uang Primer Tumbuh Melejit 18,6% pada September 2025, Efek Dana Rp200 Triliun?:
+https://finansial.bisnis.com/read/20251007/11/1918122/uang-primer-tumbuh-melejit-186-pada-september-2025-efek-dana-rp200-triliun
+
+60. radarsemarang.jawapos.com
+Hobi Ngomong Sendiri yang Dituang Menjadi Sebuah Karya: Debutnya Sutradara Kristo Immanuel dalam Film Tinggal Meninggal:
+https://radarsemarang.jawapos.com/film/726669569/hobi-ngomong-sendiri-yang-dituang-menjadi-sebuah-karya-debutnya-sutradara-kristo-immanuel-dalam-film-tinggal-meninggal
+
+61. Kompas.com
+[HOAKS] Upacara Hari Kesaktian Pancasila Ditiadakan dalam 10 Tahun Terakhir:
+https://www.kompas.com/cekfakta/read/2025/10/07/122100182/-hoaks-upacara-hari-kesaktian-pancasila-ditiadakan-dalam-10-tahun
+
+62. metrotvnews.com
+Pimpinan MPR: Pertemuan Prabowo–Jokowi untuk Kemaslahatan Masyarakat:
+https://www.metrotvnews.com/read/NgxCDyed-pimpinan-mpr-pertemuan-prabowo-jokowi-untuk-kemaslahatan-masyarakat
+
+63. Kompas.id
+The building has been officially opened, but the border post in Sebatik remains operational.:
+https://www.kompas.id/artikel/en-bangunan-sudah-diresmikan-pos-lintas-batas-negara-di-sebatik-tidak-kunjung-beroperasi
+
+64. tribunnews.com
+Sosok Guinandra Jatikusumo, Suami Putri Tanjung, Foto Pernikahannya Dihapus Anak CT di Instagram:
+https://www.tribunnews.com/nasional/7738982/sosok-guinandra-jatikusumo-suami-putri-tanjung-foto-pernikahannya-dihapus-anak-ct-di-instagram
+
+65. Kompas.com
+Mensesneg Sebut Kartika Wirjoatmodjo Berhenti dari Wamen BUMN: Bukan Dicopot:
+https://money.kompas.com/read/2025/10/08/164251826/mensesneg-sebut-kartika-wirjoatmodjo-berhenti-dari-wamen-bumn-bukan-dicopot
+
+66. tirto.id
+Alasan Kemenkes Punya 2 Wakil: Percepatan Eliminasi TBC:
+https://tirto.id/alasan-kemenkes-punya-2-wakil-percepatan-eliminasi-tbc-hjdA
+
+67. rm.id
+Profil Benny Octavianus, Wamenkes Yang Baru Dilantik Prabowo:
+https://rm.id/baca-berita/nasional/284509/profil-benny-octavianus-wamenkes-yang-baru-dilantik-prabowo
+
+68. Kompas.com
+Pertamina Siap Produksi BBM Euro 5 November 2025:
+https://otomotif.kompas.com/read/2025/10/08/082200515/pertamina-siap-produksi-bbm-euro-5-november-2025
+
+69. Bisnis.com
+Profil Kartika Wirjoatmodjo yang Resmi Akhiri Tugas sebagai Wamen BUMN:
+https://market.bisnis.com/read/20251008/192/1918593/profil-kartika-wirjoatmodjo-yang-resmi-akhiri-tugas-sebagai-wamen-bumn
+
+70. Kompas.id
+The Mystery of the "J" in PSI: Is It Really Joko Widodo?:
+https://www.kompas.id/artikel/en-misteri-j-di-psi-betulkah-joko-widodo
+
+71. rm.id
+Profil Benny Octavianus, Dokter Dari Kader Gerindra Yang Dilantik Jadi Wamenkes:
+https://rm.id/baca-berita/nasional/284509/profil-benny-octavianus-dokter-dari-kader-gerindra-yang-dilantik-jadi-wamenkes
+
+72. Kompas.id
+Behind the Reconciliation Agreement Between the Two PPP Camps:
+https://www.kompas.id/artikel/en-di-balik-kesepakatan-islah-dua-kubu-ppp
+
+73. en.tempo.co
+Prabowo Launches Committee to Accelerate Papua's Special Autonomy Development:
+https://en.tempo.co/read/2055473/prabowo-launches-committee-to-accelerate-papuas-special-autonomy-development
+
+74. jateng.tribunnews.com
+IKM di Semarang Didorong Bidik Konsumen Menengah Atas:
+https://jateng.tribunnews.com/semarang/1225201/ikm-di-semarang-didorong-bidik-konsumen-menengah-atas
+
+75. merdeka.com
+Rekam Jejak Indonesia Tolak Atlet Israel: Dari Senam Artistik hingga Piala Dunia U-20:
+https://www.merdeka.com/peristiwa/rekam-jejak-indonesia-tolak-atlet-israel-dari-senam-artistik-hingga-piala-dunia-u-20-479007-mvk.html
+
+76. merdeka.com
+Mengenang Kembali Iwan Tirta, Sang Maestro Batik Karyanya jadi Favorit Nelson Mandela:
+https://www.merdeka.com/gaya/mengenang-kembali-iwan-tirta-sang-maestro-batik-karyanya-jadi-favorit-nelson-mandela-478874-mvk.html
+
+77. investor.id
+Purbaya Pede Ekonomi RI Tumbuh 6% Dalam Waktu Dekat:
+https://investor.id/macroeconomy/412673/purbaya-pede-ekonomi-ri-tumbuh-6-dalam-waktu-dekat
+
+
+*Tier 2*
+
+78. aboutsemarang.id
+Fakta Menarik Tentang Bjorka, Hacker yang Gegerkan Dunia Maya:
+https://aboutsemarang.id/fakta-menarik-tentang-bjorka-hacker-yang-gegerkan-dunia-maya/
+
+79. jurnalpost.com
+Rantastia Nur Alangan, Tokoh Indonesia Pertama yang Menerima Apostolic Blessing dari Paus Fransiskus:
+https://jurnalpost.com/rantastia-nur-alangan-tokoh-indonesia-pertama-yang-menerima-apostolic-blessing-dari-paus-fransiskus/86416/
+
+80. katadata.co.id
+Jalan Panjang Polisi Buru Hacker Bjorka Sejak 2022, Benarkah Sudah Tertangkap?:
+https://katadata.co.id/digital/teknologi/68de9f93e6d04/jalan-panjang-polisi-buru-hacker-bjorka-sejak-2022-benarkah-sudah-tertangkap
+
+81. harian.disway.id
+FGD Bank Indonesia 2-3 Oktober 2025 (1): Melestarikan Cultural Heritage Melalui Tenun Endek:
+https://harian.disway.id/read/902018/fgd-bank-indonesia-2-3-oktober-2025-1-melestarikan-cultural-heritage-melalui-tenun-endek
+
+82. elshinta.com
+Titi Kamal bangga pakai batik sebagai identitas bangsa:
+https://elshinta.com/kategori/12/selebritas/titi-kamal-bangga-pakai-batik-sebagai-identitas-bangsa-136722
+
+83. baliportalnews.com
+Atasi Polemik Akses, GWK Pilih Geser Tembok:
+https://baliportalnews.com/2025/10/atasi-polemik-akses-gwk-pilih-geser-tembok/
+
+84. lombokinsider.com
+Ini kata Menkeu Purbaya pernah bertemu Jokowi sebelum menjadi Menteri, Ini yang dibahas!:
+https://www.lombokinsider.com/ekonomi/15516025686/ini-kata-menkeu-purbaya-pernah-bertemu-jokowi-sebelum-menjadi-menteri-ini-yang-dibahas
+
+85. kilat.com
+Selain Jokowi, Menhan Juga Datangi Kediaman Presiden Prabowo: Ada Pertemuan Silaturahmi:
+https://www.kilat.com/nasional/84416029793/selain-jokowi-menhan-juga-datangi-kediaman-presiden-prabowo-ada-pertemuan-silaturahmi
+
+86. mediaindonesia.com
+Titi Kamal Mengaku Bangga Pakai Batik:
+https://mediaindonesia.com/hiburan/817502/titi-kamal-mengaku-bangga-pakai-batik
+
+87. karosatuklik.com
+Atasi Hama Lalat Buah Jeruk, Bupati Karo Serahkan Bantuan kepada Kelompok Tani di Liang Melas Datas:
+https://karosatuklik.com/atasi-hama-lalat-buah-jeruk-bupati-karo-serahkan-bantuan-kepada-kelompok-tani-di-liang-melas-datas/
+
+88. koran-jakarta.com
+Bangga Pakai Batik, Titi Kamal Paling Suka Batik Tulis Solo:
+https://koran-jakarta.com/2025-10-04/bangga-pakai-batik-titi-kamal-paling-suka-batik-tulis-solo
+
+89. beritasatu.com
+Prabowo dan Jokowi Bertemu di Kertanegara, Ini Kata Menhan Sjafrie:
+https://www.beritasatu.com/nasional/2928372/prabowo-dan-jokowi-bertemu-di-kertanegara-ini-kata-menhan-sjafrie
+
+90. voi.id
+Prabowo Meets Jokowi In Kertanegara, Luhut: Good, We Pray For Compact:
+https://voi.id/en/news/520876
+
+91. newscorner.id
+Atlet Muda Antusias Tunjukkan Kemampuan Lewat UKT di LMD Kampung Jokowi:
+https://newscorner.id/atlet-muda-antusias-tunjukkan-kemampuan-lewat-ukt-di-lmd-kampung-jokowi/
+
+92. lenterakalimantan.net
+Pertemuan Prabowo: Menhan dan Tokoh Bangsa Bahas Apa?:
+https://lenterakalimantan.net/politics/pertemuan-prabowo-menhan-dan-tokoh-bangsa-bahas-apa/
+
+93. disway.id
+Wagub Aceh Stop Truk Pelat BK Malah Kasih Uang Buat Makan: Sudah Makan Belum, Aceh Amankan?:
+https://disway.id/read/902459/wagub-aceh-stop-truk-pelat-bk-malah-kasih-uang-buat-makan-sudah-makan-belum-aceh-amankan
+
+94. indeknews.com
+Menhan Sjafrie Bongkar Arahan Tegas Presiden Prabowo: Jaga Persatuan Bangsa!:
+https://indeksnews.com/menhan-sjafrie-bongkar-arahan-tegas-presiden-prabow/
+
+95. voi.id
+Minister Of State Secretary Regarding The Meeting Of President Prabowo And Jokowi: Discuss National Issues:
+https://voi.id/en/news/520874
+
+96. zonajakarta.com
+Belanja Jet Tempur dari Rafale Hingga KAAN Sejalan dengan Isi Pidato Presiden Prabowo Saat HUT ke-80 TNI:
+https://www.zonajakarta.com/nasional/67316032645/belanja-jet-tempur-dari-rafale-hingga-kaan-sejalan-dengan-isi-pidato-presiden-prabowo-saat-hut-ke-80-tni
+
+97. viv.co.id
+Prabowo Kumpulkan Tokoh Bangsa di Istana Kertanegara, Sjafrie Sjamsoeddin Ungkap Pesan Persatuan dan Peran Tokoh Berjasa:
+https://www.viv.co.id/read/84439/prabowo-kumpulkan-tokoh-bangsa-di-istana-kertanegara-sjafrie-sjamsoeddin-ungkap-pesan-persatuan-dan-peran-tokoh-berjasa
+
+98. waspada.id
+UKT ITFun Sumut Di Karo Kampung Jokowi Sukses, Cetak Bibit Atlet Taekwondo Tangguh:
+https://www.waspada.id/sumut/ukt-itfun-sumut-di-karo-kampung-jokowi-sukses-cetak-bibit-atlet-taekwondo-tangguh/
+
+99. metrorakyat.com
+UKT ITFun Sumut di Karo Kampung Jokowi Sukses, Cetak Bibit Atlet Taekwondo Tangguh:
+https://metrorakyat.com/2025/10/ukt-itfun-sumut-di-karo-kampung-jokowi-sukses-cetak-bibit-atlet-taekwondo-tangguh/
+
+100. inews.id
+Ini yang Dibahas Prabowo saat Kumpulkan Menteri di Kediaman Jelang Tengah Malam:
+https://www.inews.id/news/nasional/ini-yang-dibahas-prabowo-saat-kumpulkan-menteri-di-kediaman-jelang-tengah-malam
+
+101. inews.id
+Prabowo–Jokowi Bertemu, Menhan Sjafrie: Bentuk Silaturahmi Para Tokoh Bangsa:
+https://www.inews.id/multimedia/video/prabowojokowi-bertemu-menhan-sjafrie-bentuk-silaturahmi-para-tokoh-bangsa
+
+102. jaringnews.co.id
+Pertemuan 2 Jam Prabowo Jokowi, Menhan Sjafrie Ungkap Pesan Kebangsaan:
+https://www.jaringnews.co.id/newsplace/98816034095/pertemuan-2-jam-prabowo-jokowi-menhan-sjafrie-ungkap-pesan-kebangsaan
+
+103. radarbanyuwangi.jawapos.com
+Kabar Gembira! Bantuan Penebalan Tahap 4 Segera Cair, Sasar 30 Juta KPM Plus Pekerja! Bukan Lagi Beras dan Minyak Goreng:
+https://radarbanyuwangi.jawapos.com/ekonomi/756662991/kabar-gembira-bantuan-penebalan-tahap-4-segera-cair-sasar-30-juta-kpm-plus-pekerja-bukan-lagi-beras-dan-minyak-goreng
+
+104. dkliknews.com
+Prabowo dan Jokowi Bertemu Hingga 2 Jam, Menhan Sjafrie Ungkap Pesan Kebangsaan:
+https://www.dkliknews.com/nasional/34816032747/prabowo-dan-jokowi-bertemu-hingga-2-jam-menhan-sjafrie-ungkap-pesan-kebangsaan
+
+105. beritakbb.pikiran-rakyat.com
+Menhan Sjafrie Ungkap Pesan Prabowo usai Bertemu Jokowi Selama 2 Jam:
+https://beritakbb.pikiran-rakyat.com/nasional/pr-969697794/menhan-sjafrie-ungkap-pesan-prabowo-usai-bertemu-jokowi-selama-2-jam
+
+106. forumkeadilan.com
+PAN Sebut Pertemuan Prabowo-Jokowi untuk Kemaslahatan Bangsa:
+https://forumkeadilan.com/2025/10/06/pan-sebut-pertemuan-prabowo-jokowi-untuk-kemaslahatan-bangsa/
+
+107. katakini.com
+Eddy Soeparno: Pertemuan Prabowo-Jokowi Pasti Prioritaskan Maslahat untuk Masyarakat:
+https://www.katakini.com/artikel/132503/eddy-soeparno-pertemuan-prabowo-jokowi-pasti-prioritaskan-maslahat-untuk-masyarakat/
+
+108. ayobandung.com
+Data Dukcapil Terbaru! Lulusan S3 di Indonesia Didominasi Provinsi Ini, Capai 15.341 Orang:
+https://www.ayobandung.com/umum/7916036681/data-dukcapil-terbaru-lulusan-s3-di-indonesia-didominasi-provinsi-ini-capai-15341-orang
+
+109. kilat.com
+Sepak Terjang Bjorka, Hacker yang Sempat Buat RI Ketar-ketir Gegara Bocorkan NPWP Presiden Jokowi:
+https://www.kilat.com/nasional/84416034315/sepak-terjang-bjorka-hacker-yang-sempat-buat-ri-ketar-ketir-gegara-bocorkan-npwp-presiden-jokowi
+
+110. bnews.id
+ITFun Sumut Sukses Inisiasi UKT Geup Dari Kampung Jokowi LMD:
+https://bnews.id/itfun-sumut-sukses-inisiasi-ukt-geup-dari-kampung-jokowi-lmd/
+
+111. tunjuk.id
+Bertemu Presiden Prabowo, Jokowi Dinilai Curhat hingga Cari Perlindungan:
+https://tunjuk.id/detail/bertemu-presiden-prabowo-jokowi-dinilai-curhat-hingga-cari-perlindungan
+
+112. suarabaru.id
+Komisi B Dorong Semarang Jadi Titik Pertemuan Peradaban Dunia:
+https://suarabaru.id/2025/10/06/komisi-b-dorong-semarang-jadi-titik-pertemuan-peradaban-dunia
+
+113. harian.disway.id
+Benarkah Pidato di PBB Itu Penting?:
+https://harian.disway.id/read/902611/benarkah-pidato-di-pbb-itu-penting
+
+114. suaramerdeka.com
+Bintek Penguatan Karakter, Upaya YWBA Tingkatkan Kualitas SDM Pendidik:
+https://www.suaramerdeka.com/semarang-raya/0416037733/bintek-penguatan-karakter-upaya-ywba-tingkatkan-kualitas-sdm-pendidik
+
+115. jubi.id
+Mahasiswa tolak alih fungsi 8.000 ribu hektare lahan di Jayawijaya untuk PSN:
+https://jubi.id/lapago/2025/mahasiswa-tolak-alih-fungsi-8-000-ribu-hektare-lahan-di-jayawijaya-untuk-psn/
+
+116. kosadata.com
+Wakil Ketua MPR Yakin Pertemuan Antara Prabowo Dengan Jokowi Demi Kemaslahatan Rakyat:
+https://kosadata.com/read/wakil-ketua-mpr-yakin-pertemuan-antara-prabowo-dengan-jokowi-demi-kemaslahatan-rakyat
+
+117. mediaindonesia.com
+Eddy Soeparno Sebut Pertemuan Prabowo-Jokowi Bahas Kepentingan Rakyat:
+https://mediaindonesia.com/politik-dan-hukum/818576/eddy-soeparno-sebut-pertemuan-prabowo-jokowi-bahas-kepentingan-rakyat
+
+118. jpnn.com
+Soal Pertemuan Prabowo-Jokowi, Waka MPR Eddy Soeparno: Saya Meyakini Membawa Kebaikan:
+https://www.jpnn.com/news/soal-pertemuan-prabowo-jokowi-waka-mpr-eddy-soeparno-saya-meyakini-membawa-kebaikan
+
+119. voi.id
+Luhut Binsar Pandjaitan Launches His Life Travel Book In Today's Memory, October 7, 2022:
+https://voi.id/en/memori/521367
+
+120. daulat.co
+Golkar Klaim Pertemuan Prabowo dan Jokowi Langkah Wajar dan Positif:
+https://www.daulat.co/polhukam/1231676159/golkar-klaim-pertemuan-prabowo-dan-jokowi-langkah-wajar-dan-positif
+
+121. realitarakyat.com
+Eddy Soeparno: Pertemuan Prabowo dan Jokowi Sinyal Positif Bagi Bangsa:
+https://realitarakyat.com/2025/10/eddy-soeparno-pertemuan-prabowo-dan-jokowi-sinyal-positif-bagi-bangsa/
+
+122. alreinamedia.com
+Prabowo Undang Menteri ke Kertanegara, Ini Isi Pembicaraan:
+https://www.alreinamedia.com/prabowo-undang-menteri-ke-kertanegara-ini-isi-pembicaraan/
+
+123. elshinta.com
+Pimpinan MPR: Pertemuan Prabowo–Jokowi untuk kemaslahatan masyarakat:
+https://elshinta.com/kategori/1/politik/pimpinan-mpr-pertemuan-prabowojokowi-untuk-kemaslahatan-masyarakat-137188
+
+124. jakartadaily.id
+Rescue Operations End at Al Khoziny Islamic Boarding School Collapse in East Java After 9 Days, 67 Dead:
+https://www.jakartadaily.id/local/16216043905/rescue-operations-end-at-al-khoziny-islamic-boarding-school-collapse-in-east-java-after-9-days-67-dead
+
+125. voi.id
+KPK Opportunity To Check Gus Yaqut Again After Meeting With The Hajj Organizing Travel Association Revealed:
+https://voi.id/en/news/521631
+
+126. jogja.times.co.id
+Comic 8 Revolution Angkat Tema Politik Berjudul Santet K4bin3t:
+https://jogja.times.co.id/news/gaya-hidup/r65fAWMpe/Comic-8-Revolution-Angkat-Tema-Politik-Berjudul-Santet-K4bin3t
+
+127. banyuwangi.times.co.id
+Comic 8 Revolution Angkat Tema Politik Berjudul Santet K4bin3t:
+https://banyuwangi.times.co.id/news/gaya-hidup/r65fAWMpe/Comic-8-Revolution-Angkat-Tema-Politik-Berjudul-Santet-K4bin3t
+
+128. indotimur.com
+Instruksikan Tes Urine, BNN Sebut Pemda Tidore Jadi Rujukan Nasional Bagi Semua Daerah:
+https://indotimur.com/kota-tidore/instruksikan-tes-urine-bnn-sebut-pemda-tidore-jadi-rujukan-nasional-bagi-semua-daerah
+
+129. flores.pikiran-rakyat.com
+Bantuan Penebalan Tahap 4 Segera Cair, Sasar Lebih dari 30 Juta KPM dan Pekerja:
+https://flores.pikiran-rakyat.com/nasional/pr-2979703111/bantuan-penebalan-tahap-4-segera-cair-sasar-lebih-dari-30-juta-kpm-dan-pekerja
+
+130. ayobandung.com
+Habiskan Dana Rp 1,7 Triliun, Bendungan di Wilayah Terkaya Keempat di NTB Ini Jadi Yang Pertama Gunakan Teknologi Ini:
+https://www.ayobandung.com/umum/7916048096/habiskan-dana-rp-17-triliun-bendungan-di-wilayah-terkaya-keempat-di-ntb-ini-jadi-yang-pertama-gunakan-teknologi-ini
+
+131. disway.id
+Pramono Tolak Atlet Gimnastik Israel Tanding di Jakarta: Sulut Kemarahan Publik!:
+https://disway.id/read/903219/pramono-tolak-atlet-gimnastik-israel-tanding-di-jakarta-sulut-kemarahan-publik
+
+132. wowbabel.com
+Polda Babel Gelar Penanaman Jagung Serentak di Desa Petaling, Dukung Ketahanan Pangan Nasional:
+https://www.wowbabel.com/lokal/59816051804/polda-babel-gelar-penanaman-jagung-serentak-di-desa-petaling-dukung-ketahanan-pangan-nasional
+
+133. javasatu.com
+Panglima TNI Sambut 400 Kadet Papua di Mabes TNI, Tekankan Disiplin dan Cinta Tanah Air:
+https://javasatu.com/berita/panglima-tni-sambut-400-kadet-papua-di-mabes-tni-tekankan-disiplin-dan-cinta-tanah-air/
+
+134. jatim.times.co.id
+Comic 8 Revolution Angkat Tema Politik Berjudul Santet K4bin3t:
+https://jatim.times.co.id/news/gaya-hidup/r65fAWMpe/Comic-8-Revolution-Angkat-Tema-Politik-Berjudul-Santet-K4bin3t
+
+135. mediaindonesia.com
+Pemberdayaan UMKM Harus Digencarkan lewat Inovasi Digital dan Kreativitas Bisnis:
+https://mediaindonesia.com/ekonomi/818788/pemberdayaan-umkm-harus-digencarkan-lewat-inovasi-digital-dan-kreativitas-bisnis
+
+136. sulsel.fajar.co.id
+Inflasi Sumut Tertinggi di Indonesia, Bobby Nasution Ditegur Kemendagri!:
+https://sulsel.fajar.co.id/2025/10/08/inflasi-sumut-tertinggi-di-indonesia-bobby-nasution-ditegur-kemendagri/
+
+137. malang.times.co.id
+Comic 8 Revolution Angkat Tema Politik Berjudul Santet K4bin3t:
+https://malang.times.co.id/news/gaya-hidup/r65fAWMpe/Comic-8-Revolution-Angkat-Tema-Politik-Berjudul-Santet-K4bin3t
+
+138. surabaya.times.co.id
+Comic 8 Revolution Angkat Tema Politik Berjudul Santet K4bin3t:
+https://surabaya.times.co.id/news/gaya-hidup/r65fAWMpe/Comic-8-Revolution-Angkat-Tema-Politik-Berjudul-Santet-K4bin3t
+
+139. beritakeadilan.com
+Polres Toba Tanam Jagung Serentak Dukung Swasembada Pangan Nasional:
+https://beritakeadilan.com/news-82826-polres-toba-tanam-jagung-serentak-dukung-swasembada-pangan-nasional
+
+140. vimanews.id
+Pernikahan Wali Kota Tegal Dedy Yon Supriyono Jadi Perbincangan, Baliho Ucapan Selamat Bermunculan:
+https://www.vimanews.id/kota-tegal/1566677909/pernikahan-wali-kota-tegal-dedy-yon-supriyono-jadi-perbincangan-baliho-ucapan-selamat-bermunculan
+
+141. klikwarta.com
+Literasi Digital Jadi Benteng Hadapi Gelombang Hoaks di Masa Depan:
+https://www.klikwarta.com/literasi-digital-jadi-benteng-hadapi-gelombang-hoaks-di-masa-depan
+
+142. vimanews.id
+Pernikahan Wali Kota Tegal Dedy Yon Supriyono Jadi Perbincangan Hangat, Baliho Ucapan Selamat Bermunculan:
+https://www.vimanews.id/kota-tegal/1566677909/pernikahan-wali-kota-tegal-dedy-yon-supriyono-jadi-perbincangan-hangat-baliho-ucapan-selamat-bermunculan
+
+143. javasatu.com
+Polresta Malang Kota Tanam Jagung dan Gelar Pasar Murah untuk Perkuat Ketahanan Pangan:
+https://javasatu.com/berita/polresta-malang-kota-tanam-jagung-dan-gelar-pasar-murah-untuk-perkuat-ketahanan-pangan/
+
+144. voi.id
+Sri Mulyani Affirms Marriage Is A Obstacle To The Career Of A Woman In Today's Memory, October 9, 2018:
+https://voi.id/en/memori/522114
+
+145. ayobandung.com
+Diresmikan Presiden Jokowi 4 Tahun Lalu, Bandara di Jawa Tengah Ini Ternyata Sudah Dinantikan Sejak tahun 1971:
+https://www.ayobandung.com/umum/7916055893/diresmikan-presiden-jokowi-4-tahun-lalu-bandara-di-jawa-tengah-ini-ternyata-sudah-dinantikan-sejak-tahun-1971
+
+146. tugujatim.id
+Rakor Perdana Kepala Daerah di IKN, Pj Wali Kota Batu Takjub dengan Karya Anak Bangsa yang Luar Biasa:
+https://tugujatim.id/pj-wali-kota-batu-rakor-perdana-kepala-daerah-di-ikn/
+
+147. radarbanyuwangi.jawapos.com
+Makna dan Rangkaian Kegiatan Hari Santri Nasional 2025 di Berbagai Daerah:
+https://radarbanyuwangi.jawapos.com/nasional/756680373/makna-dan-rangkaian-kegiatan-hari-santri-nasional-2025-di-berbagai-daerah
+
+148. opsi.id
+Jokowi Matangkan Sekolah Partai PSI dengan Wakil Wali Kota Solo:
+https://opsi.id/read/jokowi-matangkan-sekolah-partai-psi-dengan-wakil-wali-kota-solo
+
+149. kosadata.com
+Polda Banten Ajak Gibran Tebar 80 Ribu Bibit Ikan Nila di Tangerang:
+https://kosadata.com/read/polda-banten-ajak-gibran-tebar-80-ribu-bibit-ikan-nila-di-tangerang
+
+150. kabarbanyuwangi.info
+Makna dan Rangkaian Kegiatan Hari Santri Nasional 2025 di Berbagai Daerah:
+https://www.kabarbanyuwangi.info/makna-dan-rangkaian-kegiatan-hari-santri-nasional-2025-di-berbagai-daerah.html
+
+151. beritasatu.com
+Menkeu Purbaya Yakin Ekonomi RI Mampu Tumbuh 6 Persen:
+https://www.beritasatu.com/ekonomi/2929862/menkeu-purbaya-yakin-ekonomi-ri-mampu-tumbuh-6-persen
+
+
+*Tier 3*
+
+152. nusabali.com
+Jokowi Bersama Keluarga Santap Malam di Banjar Teges Kanginan:
+https://www.nusabali.com/berita/202706/jokowi-bersama-keluarga-santap-malam-di-banjar-teges-kanginan
+
+153. urbancity.co.id
+Dunia Sedang Tidak Baik-Baik Saja, Presiden Jokowi: KSSK Harus Respon Cepat Perubahan Global:
+https://urbancity.co.id/dunia-sedang-tidak-baik-baik-saja-presiden-jokowi-kssk-harus-respon-cepat-perubahan-global/
+
+154. urbancity.co.id
+PLN Icon Plus Dukung Infrastruktur ICT di Kawasan Industri Terpadu Batang:
+https://urbancity.co.id/resmikan-network-operation-center-pln-icon-plus-dukung-infrastruktur-ict-di-kawasan-industri-terpadu-batang/
+
+155. urbancity.co.id
+Presiden Jokowi: Perizinan Event Lancar, Ekonomi Berkibar:
+https://urbancity.co.id/presiden-jokowi-perizinan-event-lancar-ekonomi-berkibar/
+
+156. urbancity.co.id
+Presiden Jokowi Kunjungi BNI Digital Banking Cafe di IKN:
+https://urbancity.co.id/presiden-jokowi-kunjungi-bni-digital-banking-cafe-akses-layanan-perbankan-makin-mudah-dan-nyaman-di-ikn/
+
+157. urbancity.co.id
+BUMN Klaim Berhasil Kurangi 21% Impor Amonium Nitrat, Genjot Hilirisasi:
+https://urbancity.co.id/bumn-klaim-berhasil-kurangi-21-impor-amonium-nitrat-genjot-hilirisasi/
+
+158. urbancity.co.id
+Dua UMKM Binaan BNI Xpora Di Inacraft 2023 Dikunjungi Presiden:
+https://urbancity.co.id/inacraft-on-october-2023-ini-dua-umkm-binaan-bni-xpora-yang-dikunjungi-presiden/
+
+159. urbancity.co.id
+Ketahanan Pangan Butuh Keseriusan, Presiden Tebar 8.261 Ton Beras di Kalbar:
+https://urbancity.co.id/ketahanan-pangan-butuh-keseriusan-presiden-tebar-8-261-ton-beras-di-kalbar/
+
+160. urbancity.co.id
+Jumlah Peserta Pameran TEI 2024 Capai 1.460 Peserta, Melebihi Target yang Ditetapkan:
+https://urbancity.co.id/jumlah-peserta-pameran-tei-2024-capai-1-460-peserta-melebihi-target-yang-ditetapkan/
+
+161. urbancity.co.id
+BNI Siap Jalin Kerja Sama, Presiden: KTT ASEAN Momentum Meningkatkan Perdagangan:
+https://urbancity.co.id/presiden-sebut-ktt-asean-jadi-momentum-meningkatkan-perdagangan-bni-siap-jalin-kerja-sama/
+
+162. urbancity.co.id
+Presiden Canangkan Pembangunan MRT Tomang-Medan Satria:
+https://urbancity.co.id/presiden-canangkan-pembangunan-mrt-tomang-medan-satria/
+
+163. urbancity.co.id
+Kemenhub Pangkas Bandara Internasional Jadi 17. Ini Daftarnya:
+https://urbancity.co.id/kemenhub-pangkas-bandara-internasional-jadi-17-ini-daftarnya/
+
+164. urbancity.co.id
+Presiden Jajal Trem Otonom Tanpa Rel di IKN:
+https://urbancity.co.id/presiden-jajal-trem-otonom-tanpa-rel-di-ikn/
+
+165. urbancity.co.id
+RSUD Sibuhuan Beroperasi, Presiden Jokowi: Pastikan Pelayanan Optimal:
+https://urbancity.co.id/rsud-sibuhuan-beroperasi-presiden-jokowi-pastikan-pelayanan-optimal/
+
+166. urbancity.co.id
+KSP Moeldoko Dorong Percepatan Implementasi Multi Lane Free Flow Untuk Jalan Tol:
+https://urbancity.co.id/ksp-moeldoko-dorong-percepatan-implementasi-multi-lane-free-flow-untuk-jalan-tol/
+
+167. urbancity.co.id
+Green Tourism, PLN ICON Plus Hadirkan PLTS Atap di TMII:
+https://urbancity.co.id/pln-icon-plus-hadirkan-layanan-plts-atap-di-tmii-dukung-green-solution-dan-green-tourism/
+
+168. urbancity.co.id
+Presiden Jokowi Pastikan Mobilitas dan Ekonomi di Sulteng Melonjak:
+https://urbancity.co.id/presiden-jokowi-pastikan-mobilitas-dan-ekonomi-di-sulteng-melonjak/
+
+169. urbancity.co.id
+Kenapa Memorial Park 1.915 M2 di IKN Telan Biaya Sampai Rp335 Miliar Lebih?:
+https://urbancity.co.id/kenapa-memorial-park-1-915-m2-di-ikn-telan-biaya-sampai-rp335-miliar-lebih/
+
+170. urbancity.co.id
+PLN Sukses Layani Listrik Sail Teluk Cenderawasih 2023 Biak Tanpa Kedip:
+https://urbancity.co.id/pln-sukses-layani-listrik-sail-teluk-cenderawasih-2023-biak-tanpa-kedip/
+
+171. urbancity.co.id
+Presiden Jokowi Resmikan Infrastruktur Pendidikan Rp84,2 Miliar di Kalteng:
+https://urbancity.co.id/presiden-jokowi-resmikan-infrastruktur-pendidikan-rp842-miliar-di-kalteng/
+
+172. urbancity.co.id
+Uji Coba Landasan Pacu Bandara IKN Lancar, September Pesawat Presiden Sudah Bisa Landing:
+https://urbancity.co.id/uji-coba-landasan-pacu-bandara-ikn-lancar-september-pesawat-presiden-sudah-bisa-landing/
+
+173. urbancity.co.id
+Konstruksi Ruas Tol Klaten-Purwomartani Rampung Tahun Depan:
+https://urbancity.co.id/konstruksi-ruas-tol-klaten-purwomartani-rampung-tahun-depan/
+
+174. urbancity.co.id
+Optimalkan Pembiayaan, FIFGROUP Talkshow Literasi Keuangan:
+https://urbancity.co.id/fifgroup-gelar-talkshow-literasi-keuangan-optimalkan-pembiayaan-dengan-cerdas-dan-bijak/
+
+175. urbancity.co.id
+BTN Sambut Positif Stimilus Bebas PPN Properti:
+https://urbancity.co.id/btn-sambut-positif-stimilus-bebas-ppn-properti/
+
+176. urbancity.co.id
+10 Tahun Pemerintahan Jokowi, Pembangunan Transportasi Udara Diklaim Maju Pesat:
+https://urbancity.co.id/10-tahun-pemerintahan-jokowi-pembangunan-transportasi-udara-diklaim-maju-pesat/
+
+177. infosulawesi.com
+EBT, Tulang Punggung Transisi Hijau Indonesia dan Perekonomian Bangsa:
+https://infosulawesi.com/2025/10/04/ebt-tulang-punggung-transisi-hijau-indonesia-dan-perekonomian-bangsa
+
+178. urbancity.co.id
+Showcasing di AIPF 2023, BNI Unjuk Prestasi Digital Transformasi:
+https://urbancity.co.id/showcasing-di-aipf-2023-bni-unjuk-prestasi-digital-transformasi/
+
+179. urbancity.co.id
+Juli Presiden Optimis Sudah Bisa Berkantor di IKN:
+https://urbancity.co.id/juli-presiden-optimis-sudah-bisa-berkantor-di-ikn/
+
+180. banyumasekspres.id
+Dari Pejabat Hingga Dokumen Rahasia, Ini Daftar Data Penting yang Diretas Bjorka:
+https://banyumasekspres.id/dari-pejabat-hingga-dokumen-rahasia-ini-daftar-data-penting-yang-diretas-bjorka/
+
+181. indonesiatelegraph.com
+Dua Jam Bertemu Di Kertanegara  Jokowi Dan Prabowo Bahas Apa:
+https://www.indonesiatelegraph.com/dua-jam-bertemu-di-kertanegara-jokowi-dan-prabowo-bahas-apa/
+
+182. urbancity.co.id
+Groundbreaking Bank Kaltimtara, Jokowi: Himbara-BPD Harus Kerja Sama:
+https://urbancity.co.id/groundbreaking-bank-kaltimtara-jokowi-himbara-bpd-harus-kerja-sama/
+
+183. urbancity.co.id
+Presiden Jokowi: Indonesia Punya Potensi Besar Ekonomi Hijau Lewat Industri Kelapa:
+https://urbancity.co.id/presiden-jokowi-indonesia-punya-potensi-besar-ekonomi-hijau-lewat-industri-kelapa/
+
+184. urbancity.co.id
+Pertamina NRE dan Guma Lakukan JSA, Kembangkan Gas to Power di Afrika Selatan:
+https://urbancity.co.id/pertamina-nre-dan-guma-lakukan-jsa-kembangkan-gas-to-power-di-afrika-selatan/
+
+185. urbancity.co.id
+Ini Dia Komisioner Tapera 2024-2029:
+https://urbancity.co.id/ini-dia-komisioner-tapera-2024-2029/
+
+186. urbancity.co.id
+Indonesia Akan Ekstraksi LPG Untuk Tekan Impor, EITS Minta Pemerintah Lebih Cermat:
+https://urbancity.co.id/indonesia-akan-ekstraksi-lpg-untuk-tekan-impor-eits-minta-pemerintah-lebih-cermat/
+
+187. urbancity.co.id
+Menhub: 10 Tahun Terakhir Pelabuhan dan Kereta Api Paling Banyak Dibangun:
+https://urbancity.co.id/menhub-10-tahun-terakhir-pelabuhan-dan-kereta-api-paling-banyak-dibangun/
+
+188. urbancity.co.id
+BNI Raih 3 Penghargaan Dari Bank Indonesia:
+https://urbancity.co.id/bni-raih-3-penghargaan-dari-bank-indonesia/
+
+189. urbancity.co.id
+Investor Daily Summit 2023 dan Optimisme Pertumbuhan Ekonomi:
+https://urbancity.co.id/bni-investor-daily-summit-2023-gaungkan-optimisme-pertumbuhan-ekonomi/
+
+190. urbancity.co.id
+Presiden Joko Widodo Resmikan Bandara Singkawang:
+https://urbancity.co.id/presiden-joko-widodo-resmikan-bandara-singkawang/
+
+191. urbancity.co.id
+Presiden: Satu Persatu Ekosistem Mobil Listrik Terbangun:
+https://urbancity.co.id/presiden-satu-persatu-ekosistem-mobil-listrik-terbangun/
+
+192. urbancity.co.id
+Presiden: Produksi Blok Rokan Harus Bisa di Atas 200.000 Barel:
+https://urbancity.co.id/presiden-produksi-blok-rokan-harus-bisa-di-atas-200-000-barel/
+
+193. urbancity.co.id
+Polri Gelar Operasi Tribrata Jaya 2024 Kawal Kunjungan Paus Fransiskus:
+https://urbancity.co.id/polri-gelar-operasi-tribrata-jaya-2024-kawal-kunjungan-paus-fransiskus/
+
+194. bunaken.co.id
+Desa Subjek Pembangunan, Minahasa Siap Tuan Rumah HDN 2026:
+https://www.bunaken.co.id/2025/10/05/desa-subjek-pembangunan-minahasa-siap-tuan-rumah-hdn-2026/
+
+195. urbancity.co.id
+Presiden Perintahkan Menhub Konversi Bandara IKN Jadi Bandara Komersial:
+https://urbancity.co.id/presiden-perintahkan-menhub-konversi-bandara-ikn-jadi-bandara-komersial/
+
+196. urbancity.co.id
+Pabrik Minyak Makan Merah, Presiden: Ini Pertama di Indonesia:
+https://urbancity.co.id/pabrik-minyak-makan-merah-presiden-ini-pertama-di-indonesia/
+
+197. urbancity.co.id
+Hari Batik Nasional, BNI Dukung Pagelaran Istana Berbatik:
+https://urbancity.co.id/bni-dukung-penuh-pagelaran-istana-berbatik-peringati-hari-batik-nasional/
+
+198. urbancity.co.id
+Jokowi Apresiasi Kehadiran BTN Di IKN:
+https://urbancity.co.id/jokowi-apresiasi-kehadiran-btn-di-ikn/
+
+199. ruangbibir.com
+Malam Ini Prabowo Panggil Menteri Bahas Swasembada Pangan dan Pemberdayaan Masyarakat:
+https://ruangbibir.com/news/malam-ini-prabowo-panggil-menteri-bahas-swasembada-pangan-dan-pemberdayaan-masyarakat/
+
+200. pantau.com
+Pertemuan Prabowo dan Jokowi Disambut Hangat PSI, Disebut Simbol Persahabatan Dua Pemimpin Bangsa:
+https://www.pantau.com/nasional/296730/pertemuan-prabowo-dan-jokowi-disambut-hangat-psi-disebut-simbol-persahabatan-dua-pemimpin-bangsa
+
+201. urbancity.co.id
+Menko Airlangga: Kita Belum Juga Punya Data Pangan yang Akuntabel:
+https://urbancity.co.id/menko-airlangga-kita-belum-juga-punya-data-pangan-yang-akuntabel/
+
+202. indonesiatelegraph.com
+Pertemuan Prabowo Jokowi Positif PAN  Bagus  Perlu Diperluas Ke Presiden Sebelumnya:
+https://www.indonesiatelegraph.com/pertemuan-prabowo-jokowi-positif-pan-bagus-perlu-diperluas-ke-presiden-sebelumnya/
+
+203. urbancity.co.id
+Dukung Inacraft 2024, BNI Dorong UMKM Go Global:
+https://urbancity.co.id/dukung-inacraft-2024-bni-dorong-umkm-go-global/
+
+204. urbancity.co.id
+Presiden: Kota-Kota Harus Segera Siapkan Transportasi Massal:
+https://urbancity.co.id/presiden-kota-kota-harus-segera-siapkan-transportasi-massal/
+
+205. urbancity.co.id
+Makassar New Port Beroperasi, Panjang Darmaga 1.280 Meter:
+https://urbancity.co.id/makassar-new-port-beroperasi-panjang-darmaga-1-280-meter/
+
+206. cerminhalmahera.com
+BNNP Malut. Tidore Patut Jadi Contoh Daerah Lain dalam Pencegahan Narkoba:
+https://cerminhalmahera.com/bnnp-malut-tidore-patut-jadi-contoh-daerah-lain-dalam-pencegahan-narkoba/
+
+207. cerminhalmahera.com
+BNNP Malut Apresiasi Kota Tidore Jadi Rujukan Nasional dalam Pencegahan Narkoba:
+https://cerminhalmahera.com/bnnp-malut-apresiasi-kota-tidore-jadi-rujukan-nasional-dalam-pencegahan-narkoba/
+
+208. ddtc.co.id
+Anggito Geser ke LPS, Prabowo Tak Berencana Lantik Wamenkeu Baru:
+https://news.ddtc.co.id/berita/nasional/1814303/anggito-geser-ke-lps-prabowo-tak-berencana-lantik-wamenkeu-baru
+
+209. jatengpos.co.id
+IKM Semarang Didorong Naik Kelas:
+https://jatengpos.co.id/ekonomi/2025/10/08/ikm-semarang-didorong-naik-kelas/
+
+210. urbancity.co.id
+Presiden Resmikan 4 Bandara dan 2 Pelabuhan di Sulawesi:
+https://urbancity.co.id/presiden-resmikan-4-bandara-dan-2-pelabuhan-di-sulawesi/
+
+211. urbancity.co.id
+Presiden Resmikan 3.724 Rumah Korban Gempa Sulteng:
+https://urbancity.co.id/presiden-resmikan-3-724-rumah-korban-gempa-sulteng/
+
+

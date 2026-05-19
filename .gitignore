@@ -1,0 +1,13 @@
+venv/
+w_venv/
+__pycache__/
+dist/
+build/
+
+*.exe
+*.pyc
+
+*.xlsx
+*.xls
+*.csv
+
