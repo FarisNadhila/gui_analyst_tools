@@ -8,6 +8,7 @@ hiddenimports=[
     'services.auto_report',
     'services.auto_report_topic',
     'services.ai_helper2',
+    'services.remastered_report'
     'pandas',
     'pandas._libs.tslibs.np_datetime',
     'pandas._libs.tslibs.nattype',

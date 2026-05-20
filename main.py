@@ -8,8 +8,8 @@ from PyQt6.QtWidgets import (
     QProgressBar, QFrame, QPlainTextEdit, QTabWidget, QDateEdit,
     QComboBox, QRadioButton, QButtonGroup, QScrollArea, QSpinBox
 )
-from PyQt6.QtCore import Qt, QSize, QDate
-from PyQt6.QtGui import QFont, QColor, QIcon
+from PyQt6.QtCore import Qt, QDate
+from PyQt6.QtGui import QIcon
 from dotenv import load_dotenv, set_key
 
 from services.auto_topic import run_auto_topic
@@ -17,6 +17,7 @@ from services.auto_report import generate_whatsapp_report
 from services.auto_report_topic import generate_laporan_from_excel
 from services.ai_helper2 import get_gemini_categories, test_gemini_connection # Import test_gemini_connection
 from services.pull_data import pull_data
+from services.remastered_report import generate_remastered_report
 
 load_dotenv()
 
@@ -24,6 +25,83 @@ load_dotenv()
 DB_DIR = "db"
 CATEGORIES_FILE = os.path.join(DB_DIR, "categories.json")
 WHITELIST_FILE = os.path.join(DB_DIR, "whitelist.txt")
+REPORT_FORMATS_FILE = os.path.join(DB_DIR, "report_formats.json")
+
+# --- Custom Widgets for Remastered Report ---
+
+class SectionWidget(QFrame):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setFrameShape(QFrame.Shape.StyledPanel)
+        self.setLineWidth(1)
+        self.setStyleSheet("SectionWidget { border: 1px solid black; margin-bottom: 5px; padding: 5px; }")
+        
+        self.layout = QVBoxLayout(self)
+        
+        # Type selection
+        header_layout = QHBoxLayout()
+        header_layout.addWidget(QLabel("Section Type:"))
+        self.type_combo = QComboBox()
+        self.type_combo.addItems(["Summary/Counts", "Sentiment", "Topic", "Media Type"])
+        self.type_combo.currentTextChanged.connect(self.on_type_changed)
+        header_layout.addWidget(self.type_combo)
+        
+        self.remove_btn = QPushButton("Remove Section")
+        self.remove_btn.setFixedSize(120, 24)
+        self.remove_btn.setStyleSheet("border: 1px solid black; min-height: 24px; font-size: 10px;")
+        self.remove_btn.clicked.connect(self.deleteLater)
+        header_layout.addWidget(self.remove_btn)
+        
+        self.layout.addLayout(header_layout)
+        
+        # Container for dynamic config
+        self.config_container = QWidget()
+        self.config_layout = QVBoxLayout(self.config_container)
+        self.config_layout.setContentsMargins(0, 5, 0, 0)
+        self.layout.addWidget(self.config_container)
+        
+        self.on_type_changed(self.type_combo.currentText())
+
+    def on_type_changed(self, text):
+        # Clear config layout safely
+        while self.config_layout.count():
+            item = self.config_layout.takeAt(0)
+            widget = item.widget()
+            if widget:
+                widget.deleteLater()
+            
+        if text == "Topic":
+            # Simplified Topic: No manual groups needed as per user request
+            self.config_layout.addWidget(QLabel("Automatic Topic Grouping:"))
+            self.config_layout.addWidget(QLabel("- Reads 'Topik' column"))
+            self.config_layout.addWidget(QLabel("- Sorts by article count (desc)"))
+            
+        elif text == "Sentiment" or text == "Summary/Counts":
+            self.order_input = QLineEdit("Positive, Neutral, Negative")
+            self.config_layout.addWidget(QLabel("Order (comma separated):"))
+            self.config_layout.addWidget(self.order_input)
+            
+        elif text == "Media Type":
+            self.order_input = QLineEdit("media tv, media cetak, media online")
+            self.config_layout.addWidget(QLabel("Order (comma separated):"))
+            self.config_layout.addWidget(self.order_input)
+
+    def get_config(self):
+        config = {"type": self.type_combo.currentText()}
+        if config["type"] == "Topic":
+            # Simplified: No extra config fields needed for automatic grouping
+            pass
+        elif config["type"] in ["Sentiment", "Summary/Counts", "Media Type"]:
+            config["order"] = [o.strip() for o in self.order_input.text().split(",") if o.strip()]
+        return config
+
+    def set_config(self, config):
+        self.type_combo.setCurrentText(config.get("type", "Summary/Counts"))
+        if config.get("type") == "Topic":
+            # Simplified: Nothing to set for automatic grouping
+            pass
+        elif "order" in config:
+            self.order_input.setText(", ".join(config.get("order", [])))
 
 # --- Retro Stylesheet ---
 RETRO_STYLE = """
@@ -186,11 +264,12 @@ class MainWindow(QMainWindow):
             layout.addSpacing(8)
             
         layout.addStretch()
-        layout.addWidget(QLabel("Beta v0.5.0"), alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(QLabel("Beta v0.6.0"), alignment=Qt.AlignmentFlag.AlignCenter)
         self.pages.addWidget(page)
 
     def switch_page(self, index):
         if index == 3: self.load_settings_data()
+        if index == 2: self.load_report_formats()
         self.pages.setCurrentIndex(index)
 
     def init_topic_page(self):
@@ -223,70 +302,158 @@ class MainWindow(QMainWindow):
         page = QWidget()
         layout = QVBoxLayout(page)
         layout.setContentsMargins(15, 10, 15, 10)
-        layout.addWidget(QLabel("Report Generator", objectName="Header"))
         
-        # Report Mode Toggle
-        layout.addWidget(QLabel("Report Mode:"))
-        self.report_tabs = QTabWidget()
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QFrame.Shape.NoFrame)
+        scroll_content = QWidget()
+        self.report_layout = QVBoxLayout(scroll_content)
+        self.report_layout.setContentsMargins(0, 0, 10, 0)
         
-        # Mode Tone
-        self.tab_tone = QWidget()
-        tone_layout = QVBoxLayout(self.tab_tone)
-        tone_layout.addWidget(QLabel("Client Name:"))
-        self.report_client = QLineEdit()
-        tone_layout.addWidget(self.report_client)
-        tone_layout.addStretch()
-        self.report_tabs.addTab(self.tab_tone, "By Tone (WA)")
+        self.report_layout.addWidget(QLabel("Auto Report", objectName="Header"))
         
-        # Mode Topic
-        self.tab_topic = QWidget()
-        topic_layout = QVBoxLayout(self.tab_topic)
-        topic_layout.addWidget(QLabel("Periode Tanggal (e.g. 13 - 14 Feb):"))
-        self.report_date = QLineEdit()
-        self.report_date.setPlaceholderText("XX - XX")
-        topic_layout.addWidget(self.report_date)
-        topic_layout.addStretch()
-        self.report_tabs.addTab(self.tab_topic, "By Topic")
+        # --- Format Section ---
+        format_group = QFrame()
+        format_group.setStyleSheet("border: 1px solid black; padding: 5px;")
+        format_layout = QVBoxLayout(format_group)
         
-        layout.addWidget(self.report_tabs)
+        format_layout.addWidget(QLabel("Format Setup", objectName="Header"))
         
-        # Common Inputs
-        layout.addWidget(QLabel("Input Excel File:"))
+        # Client selection
+        h_client = QHBoxLayout()
+        h_client.addWidget(QLabel("Select Client:"))
+        self.report_client_combo = QComboBox()
+        self.report_client_combo.setEditable(True)
+        self.report_client_combo.currentTextChanged.connect(self.on_report_client_changed)
+        h_client.addWidget(self.report_client_combo, 1)
+        format_layout.addLayout(h_client)
+        
+        # Header Format
+        format_layout.addWidget(QLabel("Header Format:"))
+        self.report_header_edit = QPlainTextEdit()
+        self.report_header_edit.setPlaceholderText("Laporan Media Monitoring\n{client_name}\n{date}\n...")
+        self.report_header_edit.setFixedHeight(100)
+        format_layout.addWidget(self.report_header_edit)
+        
+        # Data Sections
+        format_layout.addWidget(QLabel("Data Sections:"))
+        self.sections_container = QWidget()
+        self.sections_layout = QVBoxLayout(self.sections_container)
+        self.sections_layout.setContentsMargins(0, 0, 0, 0)
+        format_layout.addWidget(self.sections_container)
+        
+        h_sec_btns = QHBoxLayout()
+        btn_add_sec = QPushButton("+ Add Section")
+        btn_add_sec.setStyleSheet("border: 1px solid black; min-height: 30px;")
+        btn_add_sec.clicked.connect(self.add_report_section)
+        btn_save_fmt = QPushButton("Save Format")
+        btn_save_fmt.setStyleSheet("border: 1px solid black; min-height: 30px; background-color: #f0f0f0;")
+        btn_save_fmt.clicked.connect(self.save_report_format)
+        h_sec_btns.addWidget(btn_add_sec)
+        h_sec_btns.addWidget(btn_save_fmt)
+        format_layout.addLayout(h_sec_btns)
+        
+        self.report_layout.addWidget(format_group)
+        self.report_layout.addSpacing(15)
+        
+        # --- Process Section ---
+        process_group = QFrame()
+        process_group.setStyleSheet("border: 1px solid black; padding: 5px;")
+        process_layout = QVBoxLayout(process_group)
+        
+        process_layout.addWidget(QLabel("Process Report", objectName="Header"))
+        
+        process_layout.addWidget(QLabel("Input Excel File:"))
         h1 = QHBoxLayout()
-        self.report_input = QLineEdit()
-        self.report_input.setReadOnly(True)
-        btn1 = RetroButton("Select...")
-        btn1.clicked.connect(self.browse_report_input)
-        h1.addWidget(self.report_input)
-        h1.addWidget(btn1)
-        layout.addLayout(h1)
+        self.report_input = QLineEdit(); self.report_input.setReadOnly(True)
+        btn1 = RetroButton("Select..."); btn1.clicked.connect(self.browse_report_input)
+        h1.addWidget(self.report_input); h1.addWidget(btn1)
+        process_layout.addLayout(h1)
         
-        layout.addWidget(QLabel("Output Directory:"))
+        process_layout.addWidget(QLabel("Export Folder:"))
         h2 = QHBoxLayout()
         self.report_output = QLineEdit()
         self.report_output.setText(os.path.join(os.getcwd(), "output"))
-        btn2 = RetroButton("Select...")
-        btn2.clicked.connect(self.browse_report_output)
-        h2.addWidget(self.report_output)
-        h2.addWidget(btn2)
-        layout.addLayout(h2)
+        btn2 = RetroButton("Select..."); btn2.clicked.connect(self.browse_report_output)
+        h2.addWidget(self.report_output); h2.addWidget(btn2)
+        process_layout.addLayout(h2)
         
         self.report_status = QLabel("Status: Idle")
         self.report_status.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
-        layout.addWidget(self.report_status)
+        process_layout.addWidget(self.report_status)
         
-        layout.addStretch()
+        self.report_layout.addWidget(process_group)
+        
+        scroll.setWidget(scroll_content)
+        layout.addWidget(scroll)
+        
         b_layout = QHBoxLayout()
-        btn_back = RetroButton("Back")
-        btn_back.clicked.connect(lambda: self.pages.setCurrentIndex(0))
-        btn_run = RetroButton("OK")
-        btn_run.clicked.connect(self.run_report_generator)
-        b_layout.addWidget(btn_back)
-        b_layout.addStretch()
-        b_layout.addWidget(btn_run)
-        layout.addLayout(b_layout)
+        btn_back = RetroButton("Back"); btn_back.clicked.connect(lambda: self.pages.setCurrentIndex(0))
+        btn_run = RetroButton("Process"); btn_run.clicked.connect(self.run_report_generator)
+        b_layout.addWidget(btn_back); b_layout.addStretch(); b_layout.addWidget(btn_run); layout.addLayout(b_layout)
         
         self.pages.addWidget(page)
+
+    def add_report_section(self, config=None):
+        widget = SectionWidget()
+        if config:
+            widget.set_config(config)
+        self.sections_layout.addWidget(widget)
+
+    def load_report_formats(self):
+        self.report_client_combo.blockSignals(True)
+        self.report_client_combo.clear()
+        if os.path.exists(REPORT_FORMATS_FILE):
+            try:
+                with open(REPORT_FORMATS_FILE, 'r') as f:
+                    self.report_formats = json.load(f)
+                    self.report_client_combo.addItems(sorted(self.report_formats.keys()))
+            except:
+                self.report_formats = {}
+        else:
+            self.report_formats = {}
+        self.report_client_combo.blockSignals(False)
+        if self.report_client_combo.count() > 0:
+            self.on_report_client_changed(self.report_client_combo.currentText())
+
+    def on_report_client_changed(self, client_name):
+        # Clear sections
+        for i in reversed(range(self.sections_layout.count())):
+            self.sections_layout.itemAt(i).widget().setParent(None)
+            
+        config = self.report_formats.get(client_name)
+        if config:
+            self.report_header_edit.setPlainText(config.get("header", ""))
+            for sec_cfg in config.get("sections", []):
+                self.add_report_section(sec_cfg)
+        else:
+            self.report_header_edit.setPlainText("")
+
+    def save_report_format(self):
+        client_name = self.report_client_combo.currentText().strip()
+        if not client_name:
+            self.report_status.setText("Status: Client name required"); return
+            
+        sections = []
+        for i in range(self.sections_layout.count()):
+            w = self.sections_layout.itemAt(i).widget()
+            if isinstance(w, SectionWidget):
+                sections.append(w.get_config())
+                
+        self.report_formats[client_name] = {
+            "header": self.report_header_edit.toPlainText(),
+            "sections": sections
+        }
+        
+        try:
+            with open(REPORT_FORMATS_FILE, 'w') as f:
+                json.dump(self.report_formats, f, indent=4)
+            self.report_status.setText(f"Status: Format for '{client_name}' saved!")
+            # Refresh combo if new
+            if self.report_client_combo.findText(client_name) == -1:
+                self.report_client_combo.addItem(client_name)
+        except Exception as e:
+            self.report_status.setText(f"Status: Save Error - {str(e)}")
 
     def browse_report_input(self):
         file, _ = QFileDialog.getOpenFileName(self, "Open Excel", "", "Excel Files (*.xlsx *.xls)")
@@ -297,40 +464,32 @@ class MainWindow(QMainWindow):
         if folder: self.report_output.setText(folder)
 
     def run_report_generator(self):
-        mode = self.report_tabs.currentIndex() # 0 = Tone, 1 = Topic
+        client_name = self.report_client_combo.currentText().strip()
         excel_path = self.report_input.text()
         output_dir = self.report_output.text()
         
-        if not excel_path or not output_dir:
-            self.report_status.setText("Status: Missing paths"); return
+        if not client_name or not excel_path or not output_dir:
+            self.report_status.setText("Status: Missing info"); return
 
-        if mode == 0: # Tone Mode
-            client = self.report_client.text()
-            if not client:
-                self.report_status.setText("Status: Client name required"); return
-            
-            self.report_status.setText("Status: Processing Tone Report..."); QApplication.processEvents()
-            success, msg = generate_whatsapp_report(excel_path, client, output_dir)
-            self.report_status.setText(f"Status: {'Done' if success else 'Error - ' + str(msg)}")
-            
-        else: # Topic Mode
-            date_range = self.report_date.text() or "XX - XX"
-            self.report_status.setText("Status: Processing Topic Report..."); QApplication.processEvents()
-            
-            # Determine output filename
-            base_name = os.path.splitext(os.path.basename(excel_path))[0]
-            tanggal_now = datetime.now().strftime("%Y%m%d")
-            default_nama = f"laporan_harian_{base_name}_{tanggal_now}.txt"
-            output_path = os.path.join(output_dir, default_nama)
-            
-            try:
-                hasil = generate_laporan_from_excel(excel_path, output_path, date_range)
-                if hasil:
-                    self.report_status.setText(f"Status: Success! Saved to {default_nama}")
-                else:
-                    self.report_status.setText("Status: Error during generation")
-            except Exception as e:
-                self.report_status.setText(f"Status: Error - {str(e)}")
+        config = self.report_formats.get(client_name)
+        if not config:
+            # Try to build config from current UI state without saving
+            sections = []
+            for i in range(self.sections_layout.count()):
+                w = self.sections_layout.itemAt(i).widget()
+                if isinstance(w, SectionWidget):
+                    sections.append(w.get_config())
+            config = {
+                "client_name": client_name,
+                "header": self.report_header_edit.toPlainText(),
+                "sections": sections
+            }
+        else:
+            config["client_name"] = client_name
+
+        self.report_status.setText("Status: Processing..."); QApplication.processEvents()
+        success, msg = generate_remastered_report(excel_path, config, output_dir)
+        self.report_status.setText(f"Status: {'Done' if success else 'Error - ' + str(msg)}")
 
     def init_settings_page(self):
         page = QWidget(); layout = QVBoxLayout(page); layout.setContentsMargins(10, 10, 10, 10)

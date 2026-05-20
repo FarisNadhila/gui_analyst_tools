@@ -1,0 +1,29 @@
+{
+    "Bulog": {
+        "header": "Laporan Media Monitoring client {client_name} tanggal {date}",
+        "sections": [
+            {
+                "type": "Sentiment",
+                "order": [
+                    "Positive",
+                    "Neutral",
+                    "Negative"
+                ]
+            }
+        ]
+    },
+    "Pemkab Bogor": {
+        "header": "Selamat Pagi\nBerikut laporan media monitoring {client_name} pada tanggal {date}",
+        "sections": [
+            {
+                "type": "Topic"
+            },
+            {
+                "type": "Sentiment",
+                "order": [
+                    "Negative"
+                ]
+            }
+        ]
+    }
+}
