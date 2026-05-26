@@ -15,6 +15,9 @@ from dotenv import load_dotenv, set_key
 from services.auto_topic import run_auto_topic
 from services.auto_report import generate_whatsapp_report
 from services.auto_report_topic import generate_laporan_from_excel
+from services.Auto_Kemenperin import generate_kemenperin_report
+from services.auto_BulogSosmed import generate_bulog_sosmed_report
+from services.Auto_PupukIndonesia import generate_pupuk_indonesia_report
 from services.ai_helper2 import get_gemini_categories, test_gemini_connection # Import test_gemini_connection
 from services.pull_data import pull_data
 
@@ -65,6 +68,20 @@ QTabBar::tab {
     background: #f0f0f0;
 }
 QTabBar::tab:selected { background: #FFFFFF; font-weight: bold; }
+QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #000000;
+    border-radius: 7px;
+}
+QRadioButton::indicator:checked {
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+QRadioButton::indicator:unchecked {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+}
 """
 
 class RetroButton(QPushButton):
@@ -110,7 +127,11 @@ class MainWindow(QMainWindow):
         view_menu.mousePressEvent = lambda e: self.toggle_fullscreen()
         menu_layout.addWidget(view_menu)
 
-        menu_layout.addWidget(QLabel("Special"))
+        special_menu = QLabel("Special")
+        special_menu.setCursor(Qt.CursorShape.PointingHandCursor)
+        special_menu.mousePressEvent = lambda e: self.show_about()
+        menu_layout.addWidget(special_menu)
+
         menu_layout.addStretch()
         self.main_layout.addWidget(self.menu_bar)
         
@@ -186,8 +207,29 @@ class MainWindow(QMainWindow):
             layout.addSpacing(8)
             
         layout.addStretch()
-        layout.addWidget(QLabel("Beta v0.5.0"), alignment=Qt.AlignmentFlag.AlignCenter)
+        layout.addWidget(QLabel("Version 0.5.1"), alignment=Qt.AlignmentFlag.AlignCenter)
         self.pages.addWidget(page)
+
+    def show_about(self):
+        from PyQt6.QtWidgets import QMessageBox
+        about_text = (
+            "DGV ANALYST TOOLS\n\n"
+            "Version 0.5.1\n"
+            "Update date: 25 May 2026\n\n"
+            "GUI is made by: Faris\n"
+            "© 2026 Digivla Indonesia - All Rights Reserved."
+        )
+        msg = QMessageBox(self)
+        msg.setWindowTitle("About")
+        msg.setText(about_text)
+        msg.setStyleSheet("QLabel{ min-width: 300px; }")
+        msg.exec()
+
+    def toggle_fullscreen(self):
+        if self.isFullScreen():
+            self.showNormal()
+        else:
+            self.showFullScreen()
 
     def switch_page(self, index):
         if index == 3: self.load_settings_data()
@@ -229,26 +271,45 @@ class MainWindow(QMainWindow):
         layout.addWidget(QLabel("Report Mode:"))
         self.report_tabs = QTabWidget()
         
-        # Mode Tone
-        self.tab_tone = QWidget()
-        tone_layout = QVBoxLayout(self.tab_tone)
-        tone_layout.addWidget(QLabel("Client Name:"))
-        self.report_client = QLineEdit()
-        tone_layout.addWidget(self.report_client)
-        tone_layout.addStretch()
-        self.report_tabs.addTab(self.tab_tone, "By Tone (WA)")
+        # Mode FORMED
+        self.tab_formed = QWidget()
+        formed_layout = QVBoxLayout(self.tab_formed)
+        formed_layout.addWidget(QLabel("Client Name:"))
+        self.formed_client_cb = QComboBox()
+        self.formed_client_cb.addItems(["Bulog", "Pemkab Bogor", "Kemenperin"])
+        formed_layout.addWidget(self.formed_client_cb)
         
-        # Mode Topic
-        self.tab_topic = QWidget()
-        topic_layout = QVBoxLayout(self.tab_topic)
-        topic_layout.addWidget(QLabel("Periode Tanggal (e.g. 13 - 14 Feb):"))
-        self.report_date = QLineEdit()
-        self.report_date.setPlaceholderText("XX - XX")
-        topic_layout.addWidget(self.report_date)
-        topic_layout.addStretch()
-        self.report_tabs.addTab(self.tab_topic, "By Topic")
+        # Client specific inputs for FORMED
+        self.formed_client_name_label = QLabel("Custom Client Name:")
+        formed_layout.addWidget(self.formed_client_name_label)
+        self.formed_client_name = QLineEdit()
+        self.formed_client_name.setText("Bulog")
+        formed_layout.addWidget(self.formed_client_name)
+        
+        self.formed_date_label = QLabel("Periode Tanggal (e.g. 13 - 14 Feb):")
+        formed_layout.addWidget(self.formed_date_label)
+        self.formed_date = QLineEdit()
+        self.formed_date.setPlaceholderText("XX - XX")
+        formed_layout.addWidget(self.formed_date)
+        
+        formed_layout.addStretch()
+        self.report_tabs.addTab(self.tab_formed, "FORMED")
+        
+        # Mode SOCMED
+        self.tab_socmed = QWidget()
+        socmed_layout = QVBoxLayout(self.tab_socmed)
+        socmed_layout.addWidget(QLabel("Client Name:"))
+        self.socmed_client_cb = QComboBox()
+        self.socmed_client_cb.addItems(["Bulog", "Pupuk Indonesia"])
+        socmed_layout.addWidget(self.socmed_client_cb)
+        socmed_layout.addStretch()
+        self.report_tabs.addTab(self.tab_socmed, "SOCMED")
         
         layout.addWidget(self.report_tabs)
+
+        # Connect client change to visibility toggle
+        self.formed_client_cb.currentIndexChanged.connect(self.update_formed_visibility)
+        self.update_formed_visibility()
         
         # Common Inputs
         layout.addWidget(QLabel("Input Excel File:"))
@@ -288,6 +349,18 @@ class MainWindow(QMainWindow):
         
         self.pages.addWidget(page)
 
+    def update_formed_visibility(self):
+        client = self.formed_client_cb.currentText()
+        # Show/hide fields based on client
+        is_bulog = (client == "Bulog")
+        is_pemkab = (client == "Pemkab Bogor")
+        
+        self.formed_client_name_label.setVisible(is_bulog)
+        self.formed_client_name.setVisible(is_bulog)
+        
+        self.formed_date_label.setVisible(is_pemkab)
+        self.formed_date.setVisible(is_pemkab)
+
     def browse_report_input(self):
         file, _ = QFileDialog.getOpenFileName(self, "Open Excel", "", "Excel Files (*.xlsx *.xls)")
         if file: self.report_input.setText(file)
@@ -297,40 +370,62 @@ class MainWindow(QMainWindow):
         if folder: self.report_output.setText(folder)
 
     def run_report_generator(self):
-        mode = self.report_tabs.currentIndex() # 0 = Tone, 1 = Topic
+        mode = self.report_tabs.currentIndex() # 0 = FORMED, 1 = SOCMED
         excel_path = self.report_input.text()
         output_dir = self.report_output.text()
         
         if not excel_path or not output_dir:
             self.report_status.setText("Status: Missing paths"); return
 
-        if mode == 0: # Tone Mode
-            client = self.report_client.text()
-            if not client:
-                self.report_status.setText("Status: Client name required"); return
+        if mode == 0: # FORMED Tab
+            client = self.formed_client_cb.currentText()
             
-            self.report_status.setText("Status: Processing Tone Report..."); QApplication.processEvents()
-            success, msg = generate_whatsapp_report(excel_path, client, output_dir)
-            self.report_status.setText(f"Status: {'Done' if success else 'Error - ' + str(msg)}")
+            if client == "Bulog":
+                client_name = self.formed_client_name.text()
+                if not client_name:
+                    self.report_status.setText("Status: Client name required"); return
+                self.report_status.setText("Status: Processing Bulog (FORMED)...")
+                QApplication.processEvents()
+                success, msg = generate_whatsapp_report(excel_path, client_name, output_dir)
             
-        else: # Topic Mode
-            date_range = self.report_date.text() or "XX - XX"
-            self.report_status.setText("Status: Processing Topic Report..."); QApplication.processEvents()
+            elif client == "Pemkab Bogor":
+                date_range = self.formed_date.text() or "XX - XX"
+                self.report_status.setText("Status: Processing Pemkab Bogor (FORMED)...")
+                QApplication.processEvents()
+                base_name = os.path.splitext(os.path.basename(excel_path))[0]
+                tanggal_now = datetime.now().strftime("%Y%m%d")
+                default_nama = f"laporan_harian_{base_name}_{tanggal_now}.txt"
+                output_path = os.path.join(output_dir, default_nama)
+                try:
+                    hasil = generate_laporan_from_excel(excel_path, output_path, date_range)
+                    success = True if hasil else False
+                    msg = default_nama if success else "Error during generation"
+                except Exception as e:
+                    success = False; msg = str(e)
             
-            # Determine output filename
-            base_name = os.path.splitext(os.path.basename(excel_path))[0]
-            tanggal_now = datetime.now().strftime("%Y%m%d")
-            default_nama = f"laporan_harian_{base_name}_{tanggal_now}.txt"
-            output_path = os.path.join(output_dir, default_nama)
+            elif client == "Kemenperin":
+                self.report_status.setText("Status: Processing Kemenperin (FORMED)...")
+                QApplication.processEvents()
+                success, msg = generate_kemenperin_report(excel_path, output_dir)
+            else:
+                success = False; msg = "Unknown client"
             
-            try:
-                hasil = generate_laporan_from_excel(excel_path, output_path, date_range)
-                if hasil:
-                    self.report_status.setText(f"Status: Success! Saved to {default_nama}")
-                else:
-                    self.report_status.setText("Status: Error during generation")
-            except Exception as e:
-                self.report_status.setText(f"Status: Error - {str(e)}")
+            self.report_status.setText(f"Status: {'Done - ' + str(msg) if success else 'Error - ' + str(msg)}")
+
+        else: # SOCMED Tab
+            client = self.socmed_client_cb.currentText()
+            if client == "Bulog":
+                self.report_status.setText("Status: Processing Bulog (SOCMED)...")
+                QApplication.processEvents()
+                success, msg = generate_bulog_sosmed_report(excel_path, output_dir)
+            elif client == "Pupuk Indonesia":
+                self.report_status.setText("Status: Processing Pupuk Indonesia (SOCMED)...")
+                QApplication.processEvents()
+                success, msg = generate_pupuk_indonesia_report(excel_path, output_dir)
+            else:
+                success = False; msg = "Unknown client"
+            
+            self.report_status.setText(f"Status: {'Done - ' + str(msg) if success else 'Error - ' + str(msg)}")
 
     def init_settings_page(self):
         page = QWidget(); layout = QVBoxLayout(page); layout.setContentsMargins(10, 10, 10, 10)
